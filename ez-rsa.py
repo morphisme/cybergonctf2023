@@ -14,7 +14,6 @@ for psblt in range(10):
     qlist = [int(s1) ^ num1 for s1 in q]
     if min(plist)==0 and max(plist)==9 and min(qlist)==0 and max(qlist)==9:
         num2 = num1
-        print(num2)
         k2 = psblt
 p2 = int(''.join([str(int(s1) ^ num2) for s1 in p]))
 q2 = int(''.join([str(int(s1) ^ num2) for s1 in q]))
